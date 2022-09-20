@@ -2,6 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.courtcounter1.MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal">
@@ -10,7 +11,7 @@
         android:layout_width="202dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:weight="1">
+>
 
         <TextView
             android:layout_width="match_parent"
@@ -55,7 +56,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:weight = "12"
         >
         <TextView
             android:layout_width="match_parent"
