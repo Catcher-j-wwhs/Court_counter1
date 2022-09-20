@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void twopointer(){
         scoreA+=2;
-
         displayForTeamA(scoreA);
+
     }
     public void freethrow()
     {

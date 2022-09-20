@@ -11,7 +11,10 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="4dp"
-        android:text="Team A" />
+        android:text="Team A"
+
+
+        />
 
     <TextView
         android:layout_width="match_parent"
