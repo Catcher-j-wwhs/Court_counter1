@@ -23,6 +23,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void reset(View v) {
+        scoreA = 0;
+        scoreB = 0;
+        displayForTeamA(scoreA);
+        displayForTeamB(scoreB);
+    }
 
     public void threepointer(View v){
         scoreA+=3;
